@@ -17,13 +17,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coder/websocket"
-	"github.com/coder/websocket/internal/errd"
-	"github.com/coder/websocket/internal/test/assert"
-	"github.com/coder/websocket/internal/test/wstest"
-	"github.com/coder/websocket/internal/test/xrand"
-	"github.com/coder/websocket/internal/xsync"
-	"github.com/coder/websocket/wsjson"
+	"github.com/0magnet/websocket"
+	"github.com/0magnet/websocket/internal/errd"
+	"github.com/0magnet/websocket/internal/test/assert"
+	"github.com/0magnet/websocket/internal/test/wstest"
+	"github.com/0magnet/websocket/internal/test/xrand"
+	"github.com/0magnet/websocket/internal/xsync"
+	"github.com/0magnet/websocket/wsjson"
 )
 
 func TestConn(t *testing.T) {

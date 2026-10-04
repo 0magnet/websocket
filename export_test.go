@@ -5,7 +5,7 @@ package websocket
 import (
 	"net"
 
-	"github.com/coder/websocket/internal/util"
+	"github.com/0magnet/websocket/internal/util"
 )
 
 func (c *Conn) RecordBytesWritten() *int {

@@ -10,7 +10,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/coder/websocket/internal/errd"
+	"github.com/0magnet/websocket/internal/errd"
 )
 
 // StatusCode represents a WebSocket status code.

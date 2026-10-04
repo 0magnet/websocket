@@ -14,9 +14,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/coder/websocket/internal/bpool"
-	"github.com/coder/websocket/internal/errd"
-	"github.com/coder/websocket/internal/util"
+	"github.com/0magnet/websocket/internal/bpool"
+	"github.com/0magnet/websocket/internal/errd"
+	"github.com/0magnet/websocket/internal/util"
 )
 
 // Writer returns a writer bounded by the context that will write
